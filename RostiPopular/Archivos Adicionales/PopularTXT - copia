@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<doc>
+   <bd>
+      <server>Localhost</server>
+      <database>DBFRESTpruebas</database>
+      <user>ICGAdmin</user>
+   </bd>
+   <sala>0</sala>
+   <mesa>1922</mesa>
+   <codcliente>-2</codcliente>
+   <codvendedor>1922</codvendedor>
+</doc>

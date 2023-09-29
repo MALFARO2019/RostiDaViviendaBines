@@ -43,7 +43,9 @@ Public Class RostiPopular
 
                 End If
             Else
-                'Process.GetProcessesByName("RostiPopular")(0).Kill()
+                Process.GetProcessesByName("RostiPopular")(0).Kill()
+                Me.Dispose()
+                Me.Finalize()
                 Me.Close()
             End If
         Catch ex As Exception
