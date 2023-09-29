@@ -235,7 +235,7 @@ Public Class ClassBaseDatos
 
             Return False
         End Try
-        RostiPopular.Close()
+        RostiDaViviendaBines.Close()
 
 
 

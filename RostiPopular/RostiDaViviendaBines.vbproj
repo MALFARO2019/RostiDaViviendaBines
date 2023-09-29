@@ -78,11 +78,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassBaseDatos.vb" />
-    <Compile Include="RostiPopular.vb">
+    <Compile Include="RostiDaViviendaBines.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RostiPopular.Designer.vb">
-      <DependentUpon>RostiPopular.vb</DependentUpon>
+    <Compile Include="RostiDaViviendaBines.Designer.vb">
+      <DependentUpon>RostiDaViviendaBines.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -103,8 +103,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="RostiPopular.resx">
-      <DependentUpon>RostiPopular.vb</DependentUpon>
+    <EmbeddedResource Include="RostiDaViviendaBines.resx">
+      <DependentUpon>RostiDaViviendaBines.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

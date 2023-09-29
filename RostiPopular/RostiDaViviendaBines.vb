@@ -3,7 +3,7 @@ Imports System.Data.SqlClient
 Imports System.Runtime.CompilerServices
 Imports System.Xml
 
-Public Class RostiPopular
+Public Class RostiDaViviendaBines
 
     Public Mesa As String
     Public Sala As String
