@@ -55,6 +55,7 @@ Public Class RostiPopular
         'Me.Close()
         'Me.Finalize()
 
+
     End Sub
 
 
@@ -262,6 +263,8 @@ Public Class RostiPopular
         BD.GuardaBin(Sala, Mesa, Cliente, BIN)
         Me.Close()
     End Sub
+
+
 
     'Private Sub RostiPopular_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
     '    Me.Dispose() 'Destruyo el formulario.me.
