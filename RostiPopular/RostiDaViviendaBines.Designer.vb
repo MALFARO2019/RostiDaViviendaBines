@@ -40,6 +40,7 @@ Partial Class RostiDaViviendaBines
         Me.PictureBox1.Location = New System.Drawing.Point(207, 28)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(670, 294)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -110,7 +111,7 @@ Partial Class RostiDaViviendaBines
         Me.Label2.Text = "Esta cuenta tiene artículos promocionales Banco Popular, debes validar la tarjeta" &
     ""
         '
-        'RostiPopular
+        'RostiDaViviendaBines
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -118,8 +119,8 @@ Partial Class RostiDaViviendaBines
         Me.ClientSize = New System.Drawing.Size(1114, 734)
         Me.ControlBox = False
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "RostiPopular"
-        Me.Text = "Rosti Popular V 1.2"
+        Me.Name = "RostiDaViviendaBines"
+        Me.Text = "Rosti DaVivienda V 1.0"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
